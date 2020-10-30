@@ -1,4 +1,3 @@
-%%file roots.py
 def linear_roots(a=1.0, b=0.0):
     """Returns the roots of a linear equation: ax+ b = 0.
     
@@ -56,4 +55,4 @@ def quad_roots(a=1.0, b=2.0, c=0.0):
         r1 = -b + sqrtdisc
         r2 = -b - sqrtdisc
         twoa = 2.0 * a
-        return (r1 / twoa, r2 / twoa))
+        return (r1 / twoa, r2 / twoa)
